@@ -1,4 +1,3 @@
-# E-commerce-Sales-and-Returns-Dashboard
 # 🛒 E-commerce Sales & Returns Analysis
 
 This Power BI project analyzes a large e-commerce dataset to uncover insights related to sales performance, product returns, and customer behavior. The goal is to support strategic decision-making by visualizing trends, identifying top-performing segments, and exposing operational inefficiencies.
