@@ -1,6 +1,6 @@
 
 # 🛒 Ecommerce Sales & Returns Analysis
-# Dataset: 50,000+ orders (synthetic e-commerce data)
+# Dataset: 50,000+ orders 
 # Goal: Business insight extraction using SQL
 # Tool: MySQL
 
