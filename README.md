@@ -1,78 +1,65 @@
 ### In progress
-# 🛒 E-commerce Sales & Returns Analysis
+# 📊 Ecommerce Sales and Returns Dashboard
 
-This Power BI project analyzes a large e-commerce dataset to uncover insights related to sales performance, product returns, and customer behavior. The goal is to support strategic decision-making by visualizing trends, identifying top-performing segments, and exposing operational inefficiencies.
+## 📌 Overview  
+This Power BI dashboard provides a comprehensive analysis of ecommerce performance, focusing on sales trends, return behavior, customer segmentation, and payment method impact. 
+The goal is to help businesses make data-driven decisions regarding marketing, inventory, and customer retention strategies.
 
----
 
-## 📦 Dataset Overview
+## 🧩 Dataset Information  
+- **Size**: 50,000+ rows  
+- **Fields**: Order Date, Product Category, Customer ID, Payment Method, Quantity, Unit Price, Total Amount, Returned, Region  
 
-- **Tables used**:  
-  - `Orders`  
-  - `Returns`  
-  - `Products`  
-  - `Customers`
 
----
+## ✅ Key Business Questions Answered + My Recommendations  
 
-## 🧠 Business Questions Answered
+### 1. Which product categories generate the most revenue?  
+→ *Clothing* and *Sports* are the top-performing categories, each generating over **5.3M** in revenue.  
+📌 *Recommendation*: Focus marketing campaigns and stock management efforts on these two categories. Consider expanding the product line within these segments to maximize ROI.
 
-1. **Which product categories generate the most revenue?**  
-2. **What is the monthly trend of sales? Are there signs of seasonality?**  
-3. **Which regions have the highest number of orders and returns?**  
-4. **What are the most used payment methods?**  
-5. **Who are the top customers by total spend?**  
-6. **Is there a correlation between payment method and return rate?**  
-7. **What is the average order value and item count per customer?**
+### 2. How does revenue fluctuate across months?  
+→ A clear seasonal trend is observed, with revenue **peaking in summer** and **declining during early-year months**.  
+📌 *Recommendation*: Launch targeted promotions during low-sales months and adjust operational planning (budget, workforce, logistics) based on expected demand cycles.
 
----
+### 3. Which region has the highest return rate?  
+→ The *West* region shows a significantly higher return rate at **25.75%**.  
+📌 *Recommendation*: Conduct deeper analysis in that region to identify underlying issues (e.g. delivery time, product quality, miscommunication). Consider deploying surveys or customer service reviews.
 
-## 📊 Key Metrics & Measures
+### 4. What are the most used payment methods?  
+→ *Bank Transfer* is the most used, followed closely by *Credit Card* and *Cash on Delivery*.  
+📌 *Recommendation*: Keep all popular methods available but consider optimizing the checkout process for the top two to reduce cart abandonment and friction.
 
-- `Total Revenue`  
-- `Total Orders`  
-- `Average Order Value`  
-- `Return Rate`  
-- `Revenue by Category / Region / Month`  
-- `Returned Orders by Payment Method`  
-- `Top 10 Customers by Spend`
+### 5. Is there a relationship between payment method and return rate?  
+→ *Bank Transfer* customers have the highest return rate (**5.25%**), while *PayPal* customers have the lowest (**4.74%**).  
+📌 *Recommendation*: Monitor purchasing behavior based on payment method and consider stricter validation or follow-up communication for higher-risk methods.
 
-> All measures were created using **DAX** in Power BI.
+### 6. Who are the top 10 customers by spend?  
+→ Customers spending **over 12K individually** were identified.  
+📌 *Recommendation*: Create a loyalty strategy tailored to these high-value customers (e.g., early access to sales, VIP perks), as they represent strong retention and upsell opportunities.
 
----
+### 7. What is the average order value and typical customer behavior?  
+→ The average order value is **628.61**, with consistent behavior across customer segments.  
+📌 *Recommendation*: Use this metric as a benchmark in future marketing efforts. Promote bundles or discounts that encourage customers to raise their AOV above this threshold.
 
-## 📌 Insights
 
-- **Clothing** and **Sports** categories generated the highest revenue, followed closely by **Books**.
-- The **highest return rates** were observed in the **West** and **South** regions.
-- **Bank Transfer** had the most returns compared to other payment methods.
-- The **average order value** was **628.61**, while most customers ordered around 3 items per purchase.
-- There is an observed correlation between **Cash on Delivery** and **lower return rates**.
+## 🛠️ Tools Used  
+- **Power BI**: Data modeling, interactive visuals, DAX measures, dashboard design  
+- **SQL**: Data exploration, calculated fields, and preprocessing  
+- **GitHub**: Version control and project organization  
+- **Custom Branding**: Personalized logo and dashboard layout for professional presentation
 
----
 
-## 📁 Files
+## 📷 Dashboard Preview  
+*(Insert a screenshot image here, e.g.):*  
+`![](dashboard/ecommerce_dashboard.png)`
 
-- `Ecommerce_Analysis.pbix` – Power BI dashboard  
-- `SQL_queries.sql` – Data transformation and metrics logic  
-- `data_sample.csv` – Preview of raw dataset
 
----
-
-## 🛠️ Tools Used
-
-- **Power BI** – Data modeling & dashboard  
-- **SQL** – Data transformation  
-- **DAX** – Custom measures & KPIs  
-- **Excel** – Initial data cleaning
-
----
-
-## 📌 Next Steps
-
-- Add a time comparison (YoY, MoM growth)
-- Build a predictive model for return risk
-- Deploy an interactive web dashboard
+## 🚀 How to Use  
+1. Clone or download this repository  
+2. Open the `.pbix` file in Power BI Desktop  
+3. Use interactive slicers to filter the data by **Month**, **Year**, **Payment Method**, and **Product Category**  
+4. Hover over visuals to explore additional tooltips and insights  
+5. Review summary KPIs and visual breakdowns to answer key business questions
 
 
 
