@@ -1,4 +1,3 @@
-### In progress
 # 📊 Ecommerce Sales and Returns Dashboard
 
 ## 📌 Overview  
@@ -11,7 +10,7 @@ The goal is to help businesses make data-driven decisions regarding marketing, i
 - **Fields**: Order Date, Product Category, Customer ID, Payment Method, Quantity, Unit Price, Total Amount, Returned, Region  
 
 
-## ✅ Key Business Questions Answered + My Recommendations  
+## ✅ Key Business Questions Answered 
 
 ### 1. Which product categories generate the most revenue?  
 → *Clothing* and *Sports* are the top-performing categories, each generating over **5.3M** in revenue.  
@@ -49,7 +48,6 @@ The goal is to help businesses make data-driven decisions regarding marketing, i
 - **Custom Branding**: Personalized logo and dashboard layout for professional presentation
 
 
-## 📷 Dashboard Preview  
 ## 📷 Dashboard Preview  
 ![Dashboard Preview](dashboard/ecommerce_dashboard.png)
 
