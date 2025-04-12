@@ -50,8 +50,9 @@ The goal is to help businesses make data-driven decisions regarding marketing, i
 
 
 ## 📷 Dashboard Preview  
-*(Insert a screenshot image here, e.g.):*  
-`![](dashboard/ecommerce_dashboard.png)`
+## 📷 Dashboard Preview  
+![Dashboard Preview](dashboard/ecommerce_dashboard.png)
+
 
 
 ## 🚀 How to Use  
