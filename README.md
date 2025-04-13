@@ -1,3 +1,4 @@
+<!-- SEO: E-commerce Sales Dashboard | Power BI Project | SQL Analysis | Data Analyst Portfolio | marijatech -->
 # 📊 Ecommerce Sales and Returns Dashboard
 
 ## 📌 Overview  
