@@ -1,5 +1,5 @@
 <!-- SEO: E-commerce Sales Dashboard | Power BI Project | SQL Analysis | Data Analyst Portfolio | marijatech -->
-# 📊 Ecommerce Sales and Returns Dashboard
+# 📊 Ecommerce Sales and Returns Analysis
 
 ## 📌 Overview  
 This Power BI dashboard provides a comprehensive analysis of ecommerce performance, focusing on sales trends, return behavior, customer segmentation, and payment method impact. 
